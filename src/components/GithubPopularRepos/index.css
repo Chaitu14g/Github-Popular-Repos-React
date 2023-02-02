@@ -1,0 +1,57 @@
+.backgroundContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 1500px;
+  font-family: 'Roboto';
+  overflow: auto;
+  padding-top: 20px;
+  background-color: #ffffff;
+}
+
+.mainHeading {
+  font-size: 35px;
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-style: italic;
+  font-weight: 900;
+}
+
+.languageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.failureViewContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.failureViewImage {
+  height: 250px;
+  width: 350px;
+}
+
+.failureViewContainerHeading {
+  font-size: 20px;
+  color: #0f172a;
+  font-family: 'Bree Serif';
+}
+
+.finalOutputContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
